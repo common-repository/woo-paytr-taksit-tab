@@ -1,0 +1,16 @@
+.paytr-table-cell-head img {height: 20px;display: block;margin: 0 auto;}
+    .paytr-table-bold {color: #434d57;font-weight: bold;}
+    .paytr-table-toplam{color: #737373;font-size: 12px;}
+    .paytr-table-cols > .paytr-table-cell {width: 14%;}
+    .paytr-table {max-width: 1000px;margin: 0 auto;display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;padding: 0;font-family: Arial, sans-serif;font-size: 14px;}
+    .paytr-table-cell{box-sizing: border-box;-webkit-box-flex: 1;-ms-flex-positive: 1;flex-grow: 1;width: 100%;padding: 0.5em 1em;overflow: hidden;list-style: none;border: solid 1px #ffffff;}
+    .paytr-table-cell{text-align: center;margin: -4px 0 0 -4px;background-color: #ffffff;border-color: #f1f1f1;}
+    .paytr-table-cell:hover{cursor: default;background-color: #F3F3F3;}
+    .paytr-table-cell-head{height: 38px;color: #ffffff;border-color: #f1f1f1;background-color: #ffffff;}
+    .no-flexbox .paytr-table{display: block;}
+    .no-flexbox .paytr-table > .paytr-table-cell{width: 100%;}
+    @media all and (max-width: 700px) {.paytr-table {display: block;}.paytr-table > .paytr-table-cell {font-size: 16px !important;width: 100% !important;}.paytr-table-cell-head img {height: auto;}}
+
+#sepet-taksit woocommerce-Price-currencySymbol{
+	display: none !important;
+} 
